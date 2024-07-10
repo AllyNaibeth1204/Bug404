@@ -1,40 +1,43 @@
-# Bug404
-En este espacio se sube el código creado para el grupo 
+#Bug404
 
-Se debe agregar toda la documentación que ustedes consideren pertinente para la compresión de los modelos usados, la ejecución del código y los resultados obtenidos. 
-Puden, si desean, agregar imágenes o resultados obtenidos. 
+#Nombre del Proyecto:
+Emotional explorers
 
-Recuerden que este readme es su puerta de entrada para su proyecto. 
+#Breve descripción del proyecto:
+Modelo de red neuronal alimentado por imágenes de diversas emociones humanas, dirigido a niños en edad preescolar, el cual, busca orientarlos y a su vez, prevenir el descontrol y mal manejo emocional desde la edad temprana.
 
-Un ejemplo puede ser: 
-# Nombre del Proyecto
-
-Breve descripción del proyecto.
-
-## Tabla de contenidos
-
-1. [Nombre](#Nombre)
-2. [Descripción](#descripción)
-3. [Arquitectura](#Arquitectura)
-4. [Proceso](#Proceso)
-5. [Funcionalidades](#Funcionalidades)
-6. [Estado del proyecto](#EstadoDelProyecto)
-7. [Agradecimientos](#Agradecimientos)
-
-
-* Nombre del proyecto
-
-* Breve descripción del proyecto -> Alguna imagen o gif que muestre el proyecto
 
 * Arquitectura del proyecto + imagen
 
 * Proceso de desarrollo:
+  - Ubicación del dataset.
+  - Guardado del dataset en OneDrive.
+  - Instalación de las librerías.
+  - Creación de la red básica.
+  - Lectura de imágenes de forma manual.
+  - Confección del modelo convolucional.
+  - Lectura y alimentación del modelo.
+  - Creación de interfaz.
+  - Captura de imágenes a través de la cámara.
+  - Gráficas de precisión y pérdidas.
 
--Fuente del dataset
+-Fuente del dataset:
+Kaggle: https://www.kaggle.com/datasets/mh0386/facial-emotion
+
+
 -Limpieza de datos (img que lo valide)
+
+
 -Manejo excepciones/control errores
+
+
 -¿Qué modelo de Machine Learning están usando?
+
+
+
 -Estadísticos (Valores, gráficos, …)
+
+
 -Métrica(s) de evaluación del modelo
 
 * Funcionalidades extra:
